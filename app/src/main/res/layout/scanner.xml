@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent" android:layout_height="match_parent">
-    <fragment
-        android:id="@+id/scanner"
-        android:name="com.abhi.barcode.frag.libv2.BarcodeFragment"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/scan"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
-</FrameLayout>
+
+    <com.offthewalllanguage.www.offthewallandroid.Preview.CameraSourcePreview
+        android:id="@+id/preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </com.offthewalllanguage.www.offthewallandroid.Preview.CameraSourcePreview>
+</LinearLayout>

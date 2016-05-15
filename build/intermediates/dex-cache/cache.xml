@@ -2,88 +2,249 @@
 <items version="2" >
 
     <item
-        jar="/home/carl/Dropbox/OffTheWall/Development/offthewallandroid/app/libs/barcodelib.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="abd0f13df9b58ec4fb4cdf047c576a4078c22acd">
-        <dex dex="/home/carl/Dropbox/OffTheWall/Development/offthewallandroid/app/build/intermediates/transforms/dex/debug/folders/1000/2/barcodelib_d9b304b4fcab757aec43b7d618e524d7e17fae23/classes.dex" />
-    </item>
-    <item
         jar="/home/carl/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.3.0/support-annotations-23.3.0.jar"
         jumboMode="true"
         revision="23.0.2"
         sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
-        <dex dex="/home/carl/Dropbox/OffTheWall/Development/offthewallandroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.3.0_7d255e3533fdf350ae8971d830f2e1edf071426a/classes.dex" />
+        <dex dex="/home/carl/Dropbox/OffTheWall/Development/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.3.0_7d255e3533fdf350ae8971d830f2e1edf071426a/classes.dex" />
     </item>
     <item
-        jar="/home/carl/Dropbox/OffTheWall/Development/offthewallandroid/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/libs/internal_impl-23.3.0.jar"
+        jar="/home/carl/Dropbox/OffTheWall/Development/Android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/8.4.0/jars/classes.jar"
         jumboMode="true"
         revision="23.0.2"
-        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
-        <dex dex="/home/carl/Dropbox/OffTheWall/Development/offthewallandroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.3.0_c9262107e04a22d90185eafe85cffe94f78bb21f/classes.dex" />
+        sha1="08d34b2d135c1cc96ab506fd8bf6916d1e2f391a">
+        <dex dex="/home/carl/Dropbox/OffTheWall/Development/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-panorama-8.4.0_0be08e9442909eebdc15a16fc6bb3675c685c785/classes.dex" />
     </item>
     <item
-        jar="/home/carl/Dropbox/OffTheWall/Development/offthewallandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/jars/classes.jar"
+        jar="/home/carl/Dropbox/OffTheWall/Development/Android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="b82b8e847173c28efffcd291b2a0b1ae9ad17fa4">
+        <dex dex="/home/carl/Dropbox/OffTheWall/Development/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-identity-8.4.0_7a206b5637ef6a66a0ef5a33d8d3c1bd94606588/classes.dex" />
+    </item>
+    <item
+        jar="/home/carl/Dropbox/OffTheWall/Development/Android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="f2df436a8f02ce7e4d7d209671fc45f97c470f0e">
+        <dex dex="/home/carl/Dropbox/OffTheWall/Development/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wallet-8.4.0_5e8913b8462a673e5f4d4771279e271d17a43cab/classes.dex" />
+    </item>
+    <item
+        jar="/home/carl/Dropbox/OffTheWall/Development/Android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/jars/classes.jar"
         jumboMode="true"
         revision="23.0.2"
         sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
-        <dex dex="/home/carl/Dropbox/OffTheWall/Development/offthewallandroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.3.0_1c6be47eef790d3c97c7aa5b19aa3bc411e5fd0f/classes.dex" />
+        <dex dex="/home/carl/Dropbox/OffTheWall/Development/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.3.0_e4d64de9de43c9b455722508a217ac3f5d94dc9e/classes.dex" />
     </item>
     <item
-        jar="/home/carl/Dropbox/OffTheWall/Development/offthewallandroid/app/libs/core.jar"
+        jar="/home/carl/Dropbox/OffTheWall/Development/Android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.4.0/jars/classes.jar"
         jumboMode="true"
         revision="23.0.2"
-        sha1="8d7b5c74568100ad76106ff94b798eebe2ed4ead">
-        <dex dex="/home/carl/Dropbox/OffTheWall/Development/offthewallandroid/app/build/intermediates/transforms/dex/debug/folders/1000/2/core_fa72b61b41b375afdc4a5d650640ca3575fdfac4/classes.dex" />
+        sha1="1c9f35e952b212c843f7bd2c7eec8e82ad95602e">
+        <dex dex="/home/carl/Dropbox/OffTheWall/Development/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-8.4.0_0b4822ac2abdae722774ee1416c290b6dfba8328/classes.dex" />
     </item>
     <item
-        jar="/home/carl/Dropbox/OffTheWall/Development/offthewallandroid/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.3.0/jars/classes.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
-        <dex dex="/home/carl/Dropbox/OffTheWall/Development/offthewallandroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.3.0_42c13e003a14d51a66f154ec2078ee44edd106b3/classes.dex" />
-    </item>
-    <item
-        jar="/home/carl/Dropbox/OffTheWall/Development/offthewallandroid/app/build/intermediates/exploded-aar/com.android.support/design/23.3.0/jars/classes.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="f0001e71cea6ae432a00021c6f727f5ef0f3d27e">
-        <dex dex="/home/carl/Dropbox/OffTheWall/Development/offthewallandroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.3.0_a2031e32c00902b24b9c74a16f6285232a8cbf8b/classes.dex" />
-    </item>
-    <item
-        jar="/home/carl/Dropbox/OffTheWall/Development/offthewallandroid/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="099048aeafeafe4a9528440a6d00bbf9eaaa6ecd">
-        <dex dex="/home/carl/Dropbox/OffTheWall/Development/offthewallandroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_b6ed5315c47a938c55dd83f9229b3275148a34a1/classes.dex" />
-    </item>
-    <item
-        jar="/home/carl/Dropbox/OffTheWall/Development/offthewallandroid/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.3.0/jars/classes.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
-        <dex dex="/home/carl/Dropbox/OffTheWall/Development/offthewallandroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.3.0_09f51c3d780ad77df1b8b6e8ebdedbba60516f1f/classes.dex" />
-    </item>
-    <item
-        jar="/home/carl/Dropbox/OffTheWall/Development/offthewallandroid/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.3.0/jars/classes.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="debf30ce0a7560396b6235edef77e447006454c2">
-        <dex dex="/home/carl/Dropbox/OffTheWall/Development/offthewallandroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.3.0_5ff0a56989f6804eb0d89cc53f259cbc3346dfee/classes.dex" />
-    </item>
-    <item
-        jar="/home/carl/Dropbox/OffTheWall/Development/offthewallandroid/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/classes.jar"
+        jar="/home/carl/Dropbox/OffTheWall/Development/Android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/classes.jar"
         jumboMode="true"
         revision="23.0.2"
         sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
-        <dex dex="/home/carl/Dropbox/OffTheWall/Development/offthewallandroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.3.0_0b51fa107e1986b5fe3725a4d0e160fa47d739e8/classes.dex" />
+        <dex dex="/home/carl/Dropbox/OffTheWall/Development/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.3.0_f40d428a62c4e3b770831cbdde03c6db458f405d/classes.dex" />
     </item>
     <item
-        jar="/home/carl/Dropbox/OffTheWall/Development/offthewallandroid/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jar="/home/carl/Dropbox/OffTheWall/Development/Android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/jars/classes.jar"
         jumboMode="true"
         revision="23.0.2"
-        sha1="3a46367707aaa5614d31c41cffe0ee4cbb0135cc">
-        <dex dex="/home/carl/Dropbox/OffTheWall/Development/offthewallandroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_1e0bbe330bd0627fd84f360f78422da0b7a41725/classes.dex" />
+        sha1="613298b7aa012f121ce542881c0a599ebd8078f2">
+        <dex dex="/home/carl/Dropbox/OffTheWall/Development/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-measurement-8.4.0_d268a4694d82977f32e0e90d2ec54553d2036dc1/classes.dex" />
+    </item>
+    <item
+        jar="/home/carl/Dropbox/OffTheWall/Development/Android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="e167a34eaca0b31704212f43f9576ea84e05046f">
+        <dex dex="/home/carl/Dropbox/OffTheWall/Development/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wearable-8.4.0_0b38f80c03fe6701b1ac10ab8d1367868534ef25/classes.dex" />
+    </item>
+    <item
+        jar="/home/carl/Dropbox/OffTheWall/Development/Android/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
+        <dex dex="/home/carl/Dropbox/OffTheWall/Development/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.3.0_81680f6bbf576d85059a78ad12e2c3702902883a/classes.dex" />
+    </item>
+    <item
+        jar="/home/carl/Dropbox/OffTheWall/Development/Android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="b36f30ac5ee5d5214f4b1e2ac49f11889d58e71a">
+        <dex dex="/home/carl/Dropbox/OffTheWall/Development/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-drive-8.4.0_4699c81a0e9b5ca0fa5b4d850d3d1f7d3a07fc8f/classes.dex" />
+    </item>
+    <item
+        jar="/home/carl/Dropbox/OffTheWall/Development/Android/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="62e8d3dc3a504b49560a81fa4458fb91cc4e2f1d">
+        <dex dex="/home/carl/Dropbox/OffTheWall/Development/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_b557e8aa4b5fc40c1e49d3acef8976b2ba9f325f/classes.dex" />
+    </item>
+    <item
+        jar="/home/carl/Dropbox/OffTheWall/Development/Android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="2d7fe76982677315c4dc4edfb459c8ca718a9d4c">
+        <dex dex="/home/carl/Dropbox/OffTheWall/Development/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gcm-8.4.0_f7be72638dc5f6b29e294b25c677678b8f32db47/classes.dex" />
+    </item>
+    <item
+        jar="/home/carl/Dropbox/OffTheWall/Development/Android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="551e78f21acf69ebfb489c0e79647824c838013e">
+        <dex dex="/home/carl/Dropbox/OffTheWall/Development/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-8.4.0_ecbe392a6256d5db961cb958f2481bdcbd2bf2e8/classes.dex" />
+    </item>
+    <item
+        jar="/home/carl/Dropbox/OffTheWall/Development/Android/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/jars/libs/internal_impl-23.0.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="03d38bb042efe3e5ce27ba66b729a9523c36d8fe">
+        <dex dex="/home/carl/Dropbox/OffTheWall/Development/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.0.0_2ddedea5fea1966e243729cc4a5473e8cef9d0cc/classes.dex" />
+    </item>
+    <item
+        jar="/home/carl/Dropbox/OffTheWall/Development/Android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="b5e7892fb0708e792e0e933c4c0a0ca0ac7831fb">
+        <dex dex="/home/carl/Dropbox/OffTheWall/Development/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-8.4.0_9731a43adaabdab41eab960257a587983189dc45/classes.dex" />
+    </item>
+    <item
+        jar="/home/carl/Dropbox/OffTheWall/Development/Android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="/home/carl/Dropbox/OffTheWall/Development/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appindexing-8.4.0_c32a228836c89c17e1d52742cc31da09285702e5/classes.dex" />
+    </item>
+    <item
+        jar="/home/carl/Dropbox/OffTheWall/Development/Android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="966e5771a5a2ebfb31bf00d7cd6cd2546d245517">
+        <dex dex="/home/carl/Dropbox/OffTheWall/Development/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-8.4.0_3ddf4022ac6509d822196101ee81209387f57ab8/classes.dex" />
+    </item>
+    <item
+        jar="/home/carl/Dropbox/OffTheWall/Development/Android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="/home/carl/Dropbox/OffTheWall/Development/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-8.4.0_8d78755c177fbe24963f587943a7ab7c2b60109a/classes.dex" />
+    </item>
+    <item
+        jar="/home/carl/Dropbox/OffTheWall/Development/Android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="/home/carl/Dropbox/OffTheWall/Development/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-8.4.0_7391f139f836f8978f8ad5c765430ac430fd9a13/classes.dex" />
+    </item>
+    <item
+        jar="/home/carl/Dropbox/OffTheWall/Development/Android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="9cad249cf62751a323d9af568caf12284b7d6062">
+        <dex dex="/home/carl/Dropbox/OffTheWall/Development/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-nearby-8.4.0_b1381f8596f124404694db35b78a1a6d6e5678b1/classes.dex" />
+    </item>
+    <item
+        jar="/home/carl/Dropbox/OffTheWall/Development/Android/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="b7af6db3ee13ffbb346c4cc65140b5bae7edbe3b">
+        <dex dex="/home/carl/Dropbox/OffTheWall/Development/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_d85163156ccf8a1c27cfd5a1e5809b860bcbcf51/classes.dex" />
+    </item>
+    <item
+        jar="/home/carl/Dropbox/OffTheWall/Development/Android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="c54246475c1bb64ac6857d1320364bfbfeda2c46">
+        <dex dex="/home/carl/Dropbox/OffTheWall/Development/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-fitness-8.4.0_e6cb584deeaf783fe9a443c4a2481c195d23ab9d/classes.dex" />
+    </item>
+    <item
+        jar="/home/carl/Dropbox/OffTheWall/Development/Android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="04de44f90606c77f3b28cf44861f306290505aac">
+        <dex dex="/home/carl/Dropbox/OffTheWall/Development/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-maps-8.4.0_ddd04e232c6b522abb4a21f8d628c98f2958356a/classes.dex" />
+    </item>
+    <item
+        jar="/home/carl/Dropbox/OffTheWall/Development/Android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="debf30ce0a7560396b6235edef77e447006454c2">
+        <dex dex="/home/carl/Dropbox/OffTheWall/Development/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.3.0_fee5a7e3d81e1a738cb263c51d71240d6adaaa87/classes.dex" />
+    </item>
+    <item
+        jar="/home/carl/Dropbox/OffTheWall/Development/Android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="9fe026fb4c7fce21bc5142f6e1bdf844f28061ac">
+        <dex dex="/home/carl/Dropbox/OffTheWall/Development/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appinvite-8.4.0_043323a840658af6686a4c7d21d661e52ea9e7e4/classes.dex" />
+    </item>
+    <item
+        jar="/home/carl/Dropbox/OffTheWall/Development/Android/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="d358b3dd49a7c67844622dcbc9cf4339e13952ce">
+        <dex dex="/home/carl/Dropbox/OffTheWall/Development/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-mediarouter-v7-23.0.0_da09bce53fcce67de066365efcb3d5f52a8aa31d/classes.dex" />
+    </item>
+    <item
+        jar="/home/carl/Dropbox/OffTheWall/Development/Android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="dfecc4d835cdabcdecf7e95f0d20a3ef1e9d8ef4">
+        <dex dex="/home/carl/Dropbox/OffTheWall/Development/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-vision-8.4.0_3416c139744d903638c69516c72853eb835aa4da/classes.dex" />
+    </item>
+    <item
+        jar="/home/carl/Dropbox/OffTheWall/Development/Android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="0194a7409c40de94fb539d4ad9928ec5d47afeb7">
+        <dex dex="/home/carl/Dropbox/OffTheWall/Development/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-safetynet-8.4.0_31f4fe34d98e36578d7647d3dd8a84af761ebfb0/classes.dex" />
+    </item>
+    <item
+        jar="/home/carl/Dropbox/OffTheWall/Development/Android/app/build/intermediates/exploded-aar/com.android.support/design/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="f0001e71cea6ae432a00021c6f727f5ef0f3d27e">
+        <dex dex="/home/carl/Dropbox/OffTheWall/Development/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.3.0_48e6ec23fbcbade26a2944270c69c81c35395b71/classes.dex" />
+    </item>
+    <item
+        jar="/home/carl/Dropbox/OffTheWall/Development/Android/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
+        <dex dex="/home/carl/Dropbox/OffTheWall/Development/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.3.0_60f7d669ab6e3ff7a01577974eb830b71da52a5b/classes.dex" />
+    </item>
+    <item
+        jar="/home/carl/Dropbox/OffTheWall/Development/Android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="3a364cc6b698d1b3b2d284f64618daaa7fe77ddf">
+        <dex dex="/home/carl/Dropbox/OffTheWall/Development/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-games-8.4.0_0d142fa9272b5abd7d363d76b19dc22ab1f70e33/classes.dex" />
+    </item>
+    <item
+        jar="/home/carl/Dropbox/OffTheWall/Development/Android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="1a78298e7724d5440d210bcb946b3493250d354d">
+        <dex dex="/home/carl/Dropbox/OffTheWall/Development/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-plus-8.4.0_ad22b65587db364bad7fa09e91856c695c814707/classes.dex" />
+    </item>
+    <item
+        jar="/home/carl/Dropbox/OffTheWall/Development/Android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="a8412b654dab86d57bf90683367488211c8a81f1">
+        <dex dex="/home/carl/Dropbox/OffTheWall/Development/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-location-8.4.0_243aa605674c731b068b8989fba9c1e56e165a22/classes.dex" />
+    </item>
+    <item
+        jar="/home/carl/Dropbox/OffTheWall/Development/Android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/libs/internal_impl-23.3.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="/home/carl/Dropbox/OffTheWall/Development/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.3.0_dc0b222e4d081aa1c03d1628f3741b15db7dae78/classes.dex" />
     </item>
 
 </items>

@@ -1,9 +1,16 @@
 package com.offthewalllanguage.www.offthewallandroid;
 
+import android.Manifest;
+import android.app.Activity;
+import android.app.Dialog;
 import android.content.Context;
+import android.content.pm.PackageManager;
+import android.hardware.Camera;
+import android.os.Build;
 import android.preference.PreferenceFragment;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
@@ -23,6 +30,13 @@ import android.view.ViewGroup;
 import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.google.android.gms.common.ConnectionResult;
+import com.google.android.gms.common.GoogleApiAvailability;
+import com.google.android.gms.vision.barcode.Barcode;
+import com.google.android.gms.vision.barcode.BarcodeDetector;
+import com.offthewalllanguage.www.offthewallandroid.Preview.CameraSource;
+import com.offthewalllanguage.www.offthewallandroid.Preview.CameraSourcePreview;
 
 import java.io.IOException;
 
@@ -83,7 +97,14 @@ public class main extends AppCompatActivity {
     /*
     * Fragment that stores and starts the scanner.
     */
-    public static class ScannerFragment extends Fragment implements IScanResultHandler{
+    public static class ScannerFragment extends Fragment{
+
+        public static final String TAG = ScannerFragment.class.getSimpleName();
+
+        CameraSourcePreview mPreview;
+        CameraSource mCameraSource;
+
+        private boolean autoFocus = true;
 
         public ScannerFragment(){}
 
@@ -98,16 +119,91 @@ public class main extends AppCompatActivity {
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                                  Bundle savedInstanceState) {
             View rootView = inflater.inflate(R.layout.scanner, container, false);
-            try{
+            //For some reason, this isnt
+            Activity activity = getActivity();
+            mPreview = (CameraSourcePreview) activity.findViewById(R.id.preview);
 
-            } catch (Exception e){
-                Log.e("Scanner Fragment:", e.toString());
+            // Check for the camera permission before accessing the camera.  If the
+            // permission is not granted yet, request permission.
+            int rc = ActivityCompat.checkSelfPermission(getActivity(), Manifest.permission.CAMERA);
+            if (rc == PackageManager.PERMISSION_GRANTED) {
+                Log.v(TAG, "Creating the camera source...");
+                createCameraSource();
+            } else {
+                Log.v(TAG, "Requesting camera permission...");
+                requestCameraPermission();
             }
-
+            startCameraSource();
             return rootView;
         }
-        public void scanResult(ScanResult result) {
-            Toast.makeText(getContext(), result.getRawResult().getText(), Toast.LENGTH_LONG).show();
+
+        private void requestCameraPermission(){
+            final int RC_HANDLE_CAMERA_PERM = 2; // Permission request code
+            Log.w(TAG, "Camera permission is not granted. Requesting permission");
+
+            final String[] permissions = new String[]{Manifest.permission.CAMERA};
+
+            if (!ActivityCompat.shouldShowRequestPermissionRationale(getActivity(),
+                    Manifest.permission.CAMERA)) {
+                ActivityCompat.requestPermissions(getActivity(), permissions, RC_HANDLE_CAMERA_PERM);
+                return;
+            }
+
+            final Activity thisActivity = getActivity();
+
+            View.OnClickListener listener = new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    ActivityCompat.requestPermissions(thisActivity, permissions,
+                            RC_HANDLE_CAMERA_PERM);
+                }
+            };
+
+            Snackbar.make(mPreview, R.string.permission_camera_rationale,
+                    Snackbar.LENGTH_INDEFINITE)
+                    .setAction(R.string.ok, listener)
+                    .show();
+        }
+
+        private void createCameraSource(){
+            BarcodeDetector qrDetector = new BarcodeDetector.Builder(getActivity()).setBarcodeFormats(Barcode.QR_CODE).build(); //Create the QR code detector
+
+            //Creates and starts the camera
+            CameraSource.Builder builder = new CameraSource.Builder(getActivity(), qrDetector)
+                    .setFacing(CameraSource.CAMERA_FACING_BACK)
+                    .setRequestedPreviewSize(1600, 1024)
+                    .setRequestedFps(17.0f);
+
+            // make sure that auto focus is an available option
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.ICE_CREAM_SANDWICH) {
+                builder = builder.setFocusMode(
+                        autoFocus ? Camera.Parameters.FOCUS_MODE_CONTINUOUS_PICTURE : null);
+            }
+
+            mCameraSource = builder.setFlashMode(null).build();
+        }
+
+        private void startCameraSource() throws SecurityException {
+            final int RC_HANDLE_GMS = 9001;
+            // check that the device has play services available.
+            int code = GoogleApiAvailability.getInstance().isGooglePlayServicesAvailable(getActivity());
+            if (code != ConnectionResult.SUCCESS) {
+                Dialog dlg =
+                        GoogleApiAvailability.getInstance().getErrorDialog(getActivity(), code, RC_HANDLE_GMS);
+                dlg.show();
+            }
+
+            if (mCameraSource != null) {
+                try {
+                    Log.v(TAG, "mCameraSource: " + mCameraSource.toString());
+                    Log.v(TAG, "mPreview: " + mPreview.toString());
+                    mPreview.start(mCameraSource);
+                } catch (IOException e) {
+                    Log.e(TAG, "Unable to start camera source.", e);
+                    mCameraSource.release();
+                    mCameraSource = null;
+                }
+            }
         }
 
     }
