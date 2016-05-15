@@ -82,7 +82,7 @@
         jar="/home/carl/Dropbox/OffTheWall/Development/Android/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         revision="23.0.2"
-        sha1="a97778d1998a68a9b937673cebac577492bfe4b5">
+        sha1="7bce7739aafc1faea6bc2032d412d06012da5e9b">
         <dex dex="/home/carl/Dropbox/OffTheWall/Development/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_b557e8aa4b5fc40c1e49d3acef8976b2ba9f325f/classes.dex" />
     </item>
     <item
@@ -152,7 +152,7 @@
         jar="/home/carl/Dropbox/OffTheWall/Development/Android/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         revision="23.0.2"
-        sha1="cc7886966e3b6fe59dc84e7e80cc0e72e65f2378">
+        sha1="6def4765eb85d66481f4539c0f413c4c395d8e39">
         <dex dex="/home/carl/Dropbox/OffTheWall/Development/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_d85163156ccf8a1c27cfd5a1e5809b860bcbcf51/classes.dex" />
     </item>
     <item
