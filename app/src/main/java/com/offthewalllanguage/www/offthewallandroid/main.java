@@ -100,7 +100,7 @@ public class main extends AppCompatActivity {
         gestureDetector = new GestureDetector(this, new CaptureGestureListener());
         scaleGestureDetector = new ScaleGestureDetector(this, new ScaleListener());
 
-        Snackbar.make(mPreview, "Tap to capture. Pinch/Stretch to zoom",
+        Snackbar.make(mPreview, "Scan QR code to hear pronunciation.",
                 Snackbar.LENGTH_LONG)
                 .show();
     }
