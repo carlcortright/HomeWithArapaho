@@ -827,6 +827,7 @@ public class CameraSource {
         int minDiff = Integer.MAX_VALUE;
         for (SizePair sizePair : validPreviewSizes) {
             Size size = sizePair.previewSize();
+            Log.v(TAG, "SizePair.width = " + sizePair.previewSize().getHeight() + " sizePair.height " +sizePair.previewSize().getHeight());
             int diff = Math.abs(size.getWidth() - desiredWidth) +
                     Math.abs(size.getHeight() - desiredHeight);
             if (diff < minDiff) {
@@ -834,6 +835,8 @@ public class CameraSource {
                 minDiff = diff;
             }
         }
+
+        Log.v(TAG, "slectedPair.width = " + selectedPair.previewSize().getHeight() + " selectedPair.height " + selectedPair.previewSize().getHeight());
 
         return selectedPair;
     }
