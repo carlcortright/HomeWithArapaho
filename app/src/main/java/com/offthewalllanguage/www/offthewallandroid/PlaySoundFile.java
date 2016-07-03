@@ -40,6 +40,7 @@ public class PlaySoundFile extends Activity implements GestureDetector.OnGesture
         // Grab the file from the intent and display the correct image while playing the sound file.
         Intent callingIntent = getIntent();
         String fileName = callingIntent.getStringExtra(Intent.EXTRA_TEXT);
+        mMediaPlayer = new MediaPlayer();
         playAudio(fileName);
     }
 
@@ -98,28 +99,35 @@ public class PlaySoundFile extends Activity implements GestureDetector.OnGesture
         // Switch statement to play the sound file
         switch (filename){
             case "F_B_1_1":
-                this.mMediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.f_b_1_1);
+                this.mMediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.sf011);
                 this.mMediaPlayer.start();
                 ((TextView) findViewById(R.id.target_lang)).setText("qu'est-ce que tu veux?");
                 ((TextView) findViewById(R.id.english)).setText("What do you want?");
                 image.setImageResource(R.drawable.f_b_1_1);
                 break;
             case "F_B_1_2":
-                this.mMediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.f_b_1_2);
+                this.mMediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.sf012);
                 this.mMediaPlayer.start();
                 ((TextView) findViewById(R.id.target_lang)).setText("(de l')eau");
                 ((TextView) findViewById(R.id.english)).setText("Water");
                 image.setImageResource(R.drawable.f_b_1_2);
                 break;
+            case "F_B_1_3":
+                this.mMediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.sf013);
+                this.mMediaPlayer.start();
+                ((TextView) findViewById(R.id.target_lang)).setText("des fraises");
+                ((TextView) findViewById(R.id.english)).setText("some strawberries");
+                image.setImageResource(R.drawable.strawberry);
+                break;
             case "F_B_1_4":
-                this.mMediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.f_b_1_4);
+                this.mMediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.sf014);
                 this.mMediaPlayer.start();
                 ((TextView) findViewById(R.id.target_lang)).setText("Maman");
                 ((TextView) findViewById(R.id.english)).setText("Mom");
                 image.setImageResource(R.drawable.f_b_1_4);
                 break;
             case "F_B_1_5":
-                this.mMediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.f_b_1_5);
+                this.mMediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.sf015);
                 this.mMediaPlayer.start();
                 ((TextView) findViewById(R.id.target_lang)).setText("Papa");
                 ((TextView) findViewById(R.id.english)).setText("Dad");
@@ -127,4 +135,6 @@ public class PlaySoundFile extends Activity implements GestureDetector.OnGesture
                 break;
         }
     }
+
+
 }

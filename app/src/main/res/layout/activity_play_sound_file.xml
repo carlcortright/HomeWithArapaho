@@ -27,13 +27,6 @@
             android:id="@+id/target_lang"
             android:layout_gravity="center" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Phrase in English"
-            android:id="@+id/english"
-            android:layout_gravity="center_horizontal" />
-
         <ImageView
             android:layout_width="181dp"
             android:layout_height="wrap_content"
@@ -41,6 +34,14 @@
             android:layout_gravity="center_horizontal"
             android:layout_weight="0.66"
             android:background="#FFFFFF" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phrase in English"
+            android:id="@+id/english"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.05" />
 
         <TextView
             android:layout_width="wrap_content"

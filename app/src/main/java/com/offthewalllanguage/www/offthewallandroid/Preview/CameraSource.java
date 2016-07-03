@@ -738,6 +738,7 @@ public class CameraSource {
             parameters.setPictureSize(pictureSize.getWidth(), pictureSize.getHeight());
         }
 
+
         parameters.setPreviewSize(mPreviewSize.getWidth(), mPreviewSize.getHeight());
         parameters.setPreviewFpsRange(
                 previewFpsRange[Camera.Parameters.PREVIEW_FPS_MIN_INDEX],
@@ -835,9 +836,6 @@ public class CameraSource {
                 minDiff = diff;
             }
         }
-
-        Log.v(TAG, "slectedPair.width = " + selectedPair.previewSize().getHeight() + " selectedPair.height " + selectedPair.previewSize().getHeight());
-
         return selectedPair;
     }
 

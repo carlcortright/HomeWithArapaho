@@ -15,7 +15,7 @@ public class QRCodeProcessor implements Detector.Processor<Barcode> {
 
     public static final String TAG = QRCodeProcessor.class.getSimpleName();
     public Context context;
-    private String[] fileNames = {"F_B_1_1", "F_B_1_2", "F_B_1_4", "F_B_1_5"};
+    private String[] fileNames = {"F_B_1_1", "F_B_1_2", "F_B_1_3", "F_B_1_4", "F_B_1_5"};
     private final ArrayList<String> validFilenames = new ArrayList<String>();
     public QRCodeProcessor(Context context){
         super();
