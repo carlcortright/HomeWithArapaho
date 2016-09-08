@@ -110,7 +110,9 @@ public class main extends AppCompatActivity {
         scaleGestureDetector = new ScaleGestureDetector(this, new ScaleListener());
     }
 
-
+    /**
+     * Go to the home screen when the user presses the back button
+     * */
     @Override
     public void onBackPressed() {
         Intent startMain = new Intent(Intent.ACTION_MAIN);

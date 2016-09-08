@@ -18,6 +18,11 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.offthewalllanguage.www.offthewallandroid.Objects.SoundFile;
+import com.offthewalllanguage.www.offthewallandroid.Objects.SoundFileMap;
+
+import java.util.Map;
+
 
 public class PlaySoundFile extends Activity implements GestureDetector.OnGestureListener,
         GestureDetector.OnDoubleTapListener {
@@ -33,6 +38,13 @@ public class PlaySoundFile extends Activity implements GestureDetector.OnGesture
         // Inflate layout for displaying a sound file
         setContentView(R.layout.activity_play_sound_file);
 
+        // Realease the media player when finished
+        mMediaPlayer.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
+            public void onCompletion(MediaPlayer mp) {
+                mp.release();
+            }
+        });
+
         // Set the gesture detector for the tap and double tap
         mGestureDetector = new GestureDetector(this, this);
         mGestureDetector.setOnDoubleTapListener(this);
@@ -42,6 +54,26 @@ public class PlaySoundFile extends Activity implements GestureDetector.OnGesture
         String fileName = callingIntent.getStringExtra(Intent.EXTRA_TEXT);
         mMediaPlayer = new MediaPlayer();
         playAudio(fileName);
+    }
+
+    /**
+     * Plays the requested sound file audio
+     * */
+    public void playAudio(String filename) {
+        // Select the views to be manipulated
+        ImageView image = (ImageView) findViewById(R.id.descriptive_image);
+
+        // Check we have that sound file
+        SoundFileMap soundFilesObj = new SoundFileMap();
+        Map<String, SoundFile> soundFilesMap = soundFilesObj.getSoundFiles();
+        if(soundFilesMap.containsKey(filename)){
+            SoundFile fileToPlay = soundFilesMap.get(filename);
+            ((TextView) findViewById(R.id.target_lang)).setText(fileToPlay.getNativeText());
+            ((TextView) findViewById(R.id.english)).setText(fileToPlay.getEnglishText());
+            this.mMediaPlayer = MediaPlayer.create(this, fileToPlay.getSoundFileRID());
+            this.mMediaPlayer.start();
+            // image.setImageResource(R.drawable.f_b_1_1);
+        }
     }
 
     @Override
@@ -93,48 +125,5 @@ public class PlaySoundFile extends Activity implements GestureDetector.OnGesture
     @Override
     public boolean onDoubleTap(MotionEvent event) {return true;}
 
-    public void playAudio(String filename){
-        // Select the views to be manipulated
-        ImageView image = (ImageView) findViewById(R.id.descriptive_image);
-        // Switch statement to play the sound file
-        switch (filename){
-            case "F_B_1_1":
-                this.mMediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.sf011);
-                this.mMediaPlayer.start();
-                ((TextView) findViewById(R.id.target_lang)).setText("qu'est-ce que tu veux?");
-                ((TextView) findViewById(R.id.english)).setText("What do you want?");
-                image.setImageResource(R.drawable.f_b_1_1);
-                break;
-            case "F_B_1_2":
-                this.mMediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.sf012);
-                this.mMediaPlayer.start();
-                ((TextView) findViewById(R.id.target_lang)).setText("(de l')eau");
-                ((TextView) findViewById(R.id.english)).setText("Water");
-                image.setImageResource(R.drawable.f_b_1_2);
-                break;
-            case "F_B_1_3":
-                this.mMediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.sf013);
-                this.mMediaPlayer.start();
-                ((TextView) findViewById(R.id.target_lang)).setText("des fraises");
-                ((TextView) findViewById(R.id.english)).setText("some strawberries");
-                image.setImageResource(R.drawable.strawberry);
-                break;
-            case "F_B_1_4":
-                this.mMediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.sf014);
-                this.mMediaPlayer.start();
-                ((TextView) findViewById(R.id.target_lang)).setText("Maman");
-                ((TextView) findViewById(R.id.english)).setText("Mom");
-                image.setImageResource(R.drawable.f_b_1_4);
-                break;
-            case "F_B_1_5":
-                this.mMediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.sf015);
-                this.mMediaPlayer.start();
-                ((TextView) findViewById(R.id.target_lang)).setText("Papa");
-                ((TextView) findViewById(R.id.english)).setText("Dad");
-                image.setImageResource(R.drawable.f_b_1_5);
-                break;
-        }
     }
 
-
-}

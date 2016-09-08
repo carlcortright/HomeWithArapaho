@@ -141,7 +141,7 @@ public class CameraSourcePreview extends ViewGroup {
         }
 
         for (int i = 0; i < getChildCount(); ++i) {
-            getChildAt(i).layout(0, 0, childWidth, layoutHeight+40);
+            getChildAt(i).layout(0, 0, layoutWidth, layoutHeight);
         }
 
         try {
