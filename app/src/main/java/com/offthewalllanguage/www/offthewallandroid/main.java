@@ -37,6 +37,8 @@ import android.view.ScaleGestureDetector;
 import android.view.View;
 import android.view.ViewGroup;
 
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -97,12 +99,26 @@ public class main extends AppCompatActivity {
             requestCameraPermission();
         }
 
+        if (Build.VERSION.SDK_INT >= 21) {
+            Window window = this.getWindow();
+            window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
+            window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+            window.setStatusBarColor(this.getResources().getColor(R.color.colorPrimaryDark));
+        }
+
         gestureDetector = new GestureDetector(this, new CaptureGestureListener());
         scaleGestureDetector = new ScaleGestureDetector(this, new ScaleListener());
+    }
 
-        Snackbar.make(mPreview, "Scan QR code to hear pronunciation.",
-                Snackbar.LENGTH_LONG)
-                .show();
+    /**
+     * Go to the home screen when the user presses the back button
+     * */
+    @Override
+    public void onBackPressed() {
+        Intent startMain = new Intent(Intent.ACTION_MAIN);
+        startMain.addCategory(Intent.CATEGORY_HOME);
+        startMain.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        startActivity(startMain);
     }
 
     /**
@@ -135,15 +151,6 @@ public class main extends AppCompatActivity {
                 Snackbar.LENGTH_INDEFINITE)
                 .setAction(R.string.ok, listener)
                 .show();
-    }
-
-    @Override
-    public boolean onTouchEvent(MotionEvent e) {
-        boolean b = scaleGestureDetector.onTouchEvent(e);
-
-        boolean c = gestureDetector.onTouchEvent(e);
-
-        return b || c || super.onTouchEvent(e);
     }
 
     /**
@@ -317,29 +324,6 @@ public class main extends AppCompatActivity {
         }
     }
 
-
-//    private boolean onTap(float rawX, float rawY) {
-//
-//        //TODO: use the tap position to select the barcode.
-//        BarcodeGraphic graphic = mGraphicOverlay.getFirstGraphic();
-//        Barcode barcode = null;
-//        if (graphic != null) {
-//            barcode = graphic.getBarcode();
-//            if (barcode != null) {
-//                Intent data = new Intent();
-//                data.putExtra(BarcodeObject, barcode);
-//                setResult(CommonStatusCodes.SUCCESS, data);
-//                finish();
-//            }
-//            else {
-//                Log.d(TAG, "barcode data is null");
-//            }
-//        }
-//        else {
-//            Log.d(TAG,"no barcode detected");
-//        }
-//        return barcode != null;
-//    }
 
     private class CaptureGestureListener extends GestureDetector.SimpleOnGestureListener {
 

@@ -738,6 +738,7 @@ public class CameraSource {
             parameters.setPictureSize(pictureSize.getWidth(), pictureSize.getHeight());
         }
 
+
         parameters.setPreviewSize(mPreviewSize.getWidth(), mPreviewSize.getHeight());
         parameters.setPreviewFpsRange(
                 previewFpsRange[Camera.Parameters.PREVIEW_FPS_MIN_INDEX],
@@ -827,6 +828,7 @@ public class CameraSource {
         int minDiff = Integer.MAX_VALUE;
         for (SizePair sizePair : validPreviewSizes) {
             Size size = sizePair.previewSize();
+            Log.v(TAG, "SizePair.width = " + sizePair.previewSize().getHeight() + " sizePair.height " +sizePair.previewSize().getHeight());
             int diff = Math.abs(size.getWidth() - desiredWidth) +
                     Math.abs(size.getHeight() - desiredHeight);
             if (diff < minDiff) {
@@ -834,7 +836,6 @@ public class CameraSource {
                 minDiff = diff;
             }
         }
-
         return selectedPair;
     }
 

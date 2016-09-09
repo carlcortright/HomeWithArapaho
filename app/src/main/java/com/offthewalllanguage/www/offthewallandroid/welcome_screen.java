@@ -2,11 +2,15 @@ package com.offthewalllanguage.www.offthewallandroid;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
+import android.os.Build;
 import android.os.CountDownTimer;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
 import android.content.Intent;
+import android.view.Window;
+import android.view.WindowManager;
+
 /**
  * An example full-screen activity that shows and hides the system UI (i.e.
  * status bar and navigation/system bar) with user interaction.
@@ -55,7 +59,23 @@ public class welcome_screen extends Activity {
 
         //Display the welcome screen
         setContentView(R.layout.activity_welcome_screen);
+        if (Build.VERSION.SDK_INT >= 21) {
+            Window window = this.getWindow();
+            window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
+            window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+            window.setStatusBarColor(this.getResources().getColor(R.color.colorPrimaryDark));
+        }
 
+        splashImage();
+    }
+
+    @Override
+    public void onResume(){
+        super.onResume();
+        splashImage();
+    }
+
+    public void splashImage(){
         //Start the main app after x seconds
         double timeSec = 1.5;
         int timeMS = (int)(1000 * timeSec);
@@ -70,9 +90,8 @@ public class welcome_screen extends Activity {
                 startActivity(mainActivity);
             }
         }.start();
-
-
     }
+
 
     @Override
     protected void onPostCreate(Bundle savedInstanceState) {
