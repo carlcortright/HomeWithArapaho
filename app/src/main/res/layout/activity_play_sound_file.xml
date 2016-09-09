@@ -3,7 +3,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFFFFF"
-    tools:context="com.offthewalllanguage.www.offthewallandroid.PlaySoundFile">
+    tools:context="com.offthewalllanguage.www.offthewallandroid.PlaySoundFile"
+    android:id="@+id/border">
 
     <!-- The primary full-screen view. This can be replaced with whatever view
          is needed to present your content, e.g. VideoView, SurfaceView,
@@ -12,50 +13,59 @@
     <!-- This FrameLayout insets its children based on system windows using
          android:fitsSystemWindows. -->
 
-    <LinearLayout
-        android:orientation="vertical"
+    <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_gravity="center"
-        android:weightSum="1">
+        android:layout_margin="20dp"
+        android:background="#FFFFFF">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Phrase in Target Language"
-            android:id="@+id/target_lang"
-            android:layout_gravity="center" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:weightSum="1">
 
-        <ImageView
-            android:layout_width="181dp"
-            android:layout_height="wrap_content"
-            android:id="@+id/descriptive_image"
-            android:layout_gravity="center_horizontal"
-            android:layout_weight="0.66"
-            android:background="#FFFFFF" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phrase in English"
+                android:textSize="40dp"
+                android:id="@+id/english"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="20dp" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Phrase in English"
-            android:id="@+id/english"
-            android:layout_gravity="center_horizontal"
-            android:layout_weight="0.05" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/descriptive_image"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.66"
+                android:background="#FFFFFF" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Tap to replay."
-            android:id="@+id/textView"
-            android:layout_gravity="center_horizontal" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phrase in Target Language"
+                android:textSize="25dp"
+                android:id="@+id/target_lang"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="20dp" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Double tap to go back to scan."
-            android:id="@+id/textView2"
-            android:layout_gravity="center_horizontal" />
-    </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tap to replay."
+                android:id="@+id/textView"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Double tap to go back to scan."
+                android:id="@+id/textView2"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+    </FrameLayout>
 
 </FrameLayout>

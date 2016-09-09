@@ -5,12 +5,14 @@ import android.app.Activity;
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.media.MediaPlayer;
+import android.support.v4.content.ContextCompat;
 import android.support.v4.view.GestureDetectorCompat;
 import android.support.v4.view.MotionEventCompat;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.os.Handler;
+import android.text.Layout;
 import android.util.Log;
 import android.view.GestureDetector;
 import android.view.MotionEvent;
@@ -61,9 +63,25 @@ public class PlaySoundFile extends Activity implements GestureDetector.OnGesture
         SoundFileMap soundFilesObj = new SoundFileMap();
         Map<String, SoundFile> soundFilesMap = soundFilesObj.getSoundFiles();
         if(soundFilesMap.containsKey(filename)){
+            // Define the layout
             SoundFile fileToPlay = soundFilesMap.get(filename);
             ((TextView) findViewById(R.id.target_lang)).setText(fileToPlay.getNativeText());
             ((TextView) findViewById(R.id.english)).setText(fileToPlay.getEnglishText());
+            View backgroundFrame = findViewById(R.id.border);
+            switch (fileToPlay.getBorderColor()){
+                case BLACK:
+                    backgroundFrame.setBackgroundColor(ContextCompat.getColor(getApplicationContext(),
+                            R.color.black_overlay));
+                    break;
+                case RED:
+                    backgroundFrame.setBackgroundColor(ContextCompat.getColor(getApplicationContext(),
+                            R.color.colorPrimary));
+                    break;
+                case WHITE:
+                    backgroundFrame.setBackgroundColor(ContextCompat.getColor(getApplicationContext(),
+                            R.color.white_background));
+                    break;
+            }
             // image.setImageResource(R.drawable.f_b_1_1); TODO: Add the image to the activity
             // Play the sound file
             this.mMediaPlayer = MediaPlayer.create(PlaySoundFile.this, fileToPlay.getSoundFileRID());
