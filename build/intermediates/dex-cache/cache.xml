@@ -37,6 +37,13 @@
         <dex dex="/home/carl/Dropbox/Random/OffTheWall/Development/Android/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-database-connection-9.0.0_a192e49f93b053e119bb9306b576997b3e770744.jar" />
     </item>
     <item
+        jar="/home/carl/Dropbox/Random/OffTheWall/Development/Android/app/build/intermediates/exploded-aar/com.android.support/multidex/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6666dd525c3da197e7d07f4f23ef5fc7881a697b">
+        <dex dex="/home/carl/Dropbox/Random/OffTheWall/Development/Android/app/build/intermediates/pre-dexed/debug/com.android.support-multidex-1.0.0_e2a03cce5a1bece3cf82beaee14cf6010ae77459.jar" />
+    </item>
+    <item
         jar="/home/carl/Dropbox/Random/OffTheWall/Development/Android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/9.0.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.2"
