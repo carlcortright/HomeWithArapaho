@@ -82,8 +82,11 @@ public class PlaySoundFile extends Activity implements GestureDetector.OnGesture
                             R.color.white_background));
                     break;
             }
-            // image.setImageResource(R.drawable.f_b_1_1); TODO: Add the image to the activity
+            image.setImageResource(fileToPlay.getImageRID());
             // Play the sound file
+            if (mMediaPlayer != null){
+                mMediaPlayer.reset();
+            }
             this.mMediaPlayer = MediaPlayer.create(PlaySoundFile.this, fileToPlay.getSoundFileRID());
             this.mMediaPlayer.start();
         } else {

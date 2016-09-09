@@ -12,17 +12,19 @@ public class SoundFile {
     private String NativeText;
     private String EnglishText;
     private int soundFileRID;
+    private int imageRID;
     private BorderColor borderColor;
 
     /**
      * Default constructor
      * */
-    public SoundFile(int ID, String NativeText, String EnglishText, BorderColor borderColor,int RID){
+    public SoundFile(int ID, String NativeText, String EnglishText, BorderColor borderColor,int RID, int imageRID){
         this.ID = ID;
         this.NativeText = NativeText;
         this.EnglishText = EnglishText;
         this.soundFileRID = RID;
         this.borderColor = borderColor;
+        this.imageRID = imageRID;
     }
 
     /**
@@ -33,5 +35,6 @@ public class SoundFile {
     public String getEnglishText(){ return this.EnglishText; }
     public int getSoundFileRID(){ return this.soundFileRID; }
     public BorderColor getBorderColor(){ return this.borderColor; }
+    public int getImageRID(){ return this.imageRID; }
 
 }
