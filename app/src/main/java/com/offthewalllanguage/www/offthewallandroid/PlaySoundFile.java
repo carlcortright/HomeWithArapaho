@@ -21,6 +21,7 @@ import android.widget.TextView;
 import com.offthewalllanguage.www.offthewallandroid.Objects.SoundFile;
 import com.offthewalllanguage.www.offthewallandroid.Objects.SoundFileMap;
 
+import java.io.IOException;
 import java.util.Map;
 
 
@@ -37,13 +38,6 @@ public class PlaySoundFile extends Activity implements GestureDetector.OnGesture
 
         // Inflate layout for displaying a sound file
         setContentView(R.layout.activity_play_sound_file);
-
-        // Realease the media player when finished
-        mMediaPlayer.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
-            public void onCompletion(MediaPlayer mp) {
-                mp.release();
-            }
-        });
 
         // Set the gesture detector for the tap and double tap
         mGestureDetector = new GestureDetector(this, this);
@@ -70,9 +64,13 @@ public class PlaySoundFile extends Activity implements GestureDetector.OnGesture
             SoundFile fileToPlay = soundFilesMap.get(filename);
             ((TextView) findViewById(R.id.target_lang)).setText(fileToPlay.getNativeText());
             ((TextView) findViewById(R.id.english)).setText(fileToPlay.getEnglishText());
-            this.mMediaPlayer = MediaPlayer.create(this, fileToPlay.getSoundFileRID());
+            // image.setImageResource(R.drawable.f_b_1_1); TODO: Add the image to the activity
+            // Play the sound file
+            this.mMediaPlayer = MediaPlayer.create(PlaySoundFile.this, fileToPlay.getSoundFileRID());
             this.mMediaPlayer.start();
-            // image.setImageResource(R.drawable.f_b_1_1);
+        } else {
+            Intent scanner = new Intent(this, main.class);
+            startActivity(scanner);
         }
     }
 

@@ -15,13 +15,9 @@ public class QRCodeProcessor implements Detector.Processor<Barcode> {
 
     public static final String TAG = QRCodeProcessor.class.getSimpleName();
     public Context context;
-    private String[] fileNames = {"F_B_1_1", "F_B_1_2", "F_B_1_3", "F_B_1_4", "F_B_1_5"};
-    private final ArrayList<String> validFilenames = new ArrayList<String>();
     public QRCodeProcessor(Context context){
         super();
         this.context = context;
-        for(int i = 0 ; i < fileNames.length; i++)
-            validFilenames.add(fileNames[i]);
     }
     @Override
     public void release() {}
@@ -36,12 +32,10 @@ public class QRCodeProcessor implements Detector.Processor<Barcode> {
         ArrayList<String> phrases = new ArrayList();
         for (int i = 0; i < detections.getDetectedItems().size(); i++){
             phrases.add(items.get(items.keyAt(i)).rawValue);
-            if (validFilenames.contains(phrases.get(i))){
-                Intent play = new Intent(this.context, PlaySoundFile.class);
-                play.putExtra(Intent.EXTRA_TEXT, phrases.get(i));
-                play.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                context.startActivity(play);
-            }
+            Intent play = new Intent(this.context, PlaySoundFile.class);
+            play.putExtra(Intent.EXTRA_TEXT, phrases.get(i));
+            play.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+            context.startActivity(play);
         }
 
     }
