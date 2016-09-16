@@ -1,8 +1,10 @@
 # HomeWithArapaho
 
-*tl;dr The Home with Arapaho project is a language restoration project started in 2015 with the goal of helping Arapaho youth learn their native language. It is an app that acts as a language aid, interacting with "wall cards" in the user's environment to allow users to learn how to pronounce words and phrases.*
+*Updated 9/16/2016 by Carl Cortright*
 
 ### Our Story
+
+*tl;dr The Home with Arapaho project is a language restoration project started in 2015 with the goal of helping Arapaho youth learn their native language. It is an app that acts as a language aid, interacting with "wall cards" in the user's environment to allow users to learn how to pronounce words and phrases.*
 
 The Home with Arapaho project was started by an Arapaho linguist, Finn Thye, and two computer science students, myself and John Raesly, in 2015 with the goal of helping restore the Native American Language, Arapaho. For those who don't know, the Arapaho are a small, highly persecuted tribe of Native Americans living on a reservation in northern Wyoming. Their population of native speakers has been drastically decreasing as the youth fail to pick up the language in substantial numbers and the elderly who are fluent pass away. It has gotten to the point where there are less than 100 fluent speakers alive.
 

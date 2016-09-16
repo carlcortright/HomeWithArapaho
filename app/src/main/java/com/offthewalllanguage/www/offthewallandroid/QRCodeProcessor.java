@@ -10,7 +10,11 @@ import com.google.android.gms.vision.barcode.Barcode;
 
 import java.util.ArrayList;
 
-
+/**
+ * Detects a QR code in a frame
+ *
+ * Author: Carl Cortright
+ * */
 public class QRCodeProcessor implements Detector.Processor<Barcode> {
 
     public static final String TAG = QRCodeProcessor.class.getSimpleName();
@@ -22,7 +26,7 @@ public class QRCodeProcessor implements Detector.Processor<Barcode> {
     @Override
     public void release() {}
 
-    /*
+    /**
      Starts a new activity and plays the sound file that is detected
      */
     @Override

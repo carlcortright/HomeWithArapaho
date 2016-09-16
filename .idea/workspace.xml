@@ -10,7 +10,327 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="478901a9-8ca6-456f-8bb0-8a1c9352cb63" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/build.gradle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/gradle.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/gradle/wrapper/gradle-wrapper.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/gradle/wrapper/gradle-wrapper.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/gradlew" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/gradlew.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/import-summary.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/library/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/library/build.gradle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/library/library.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/library/proguard-rules.pro" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/library/src/androidTest/java/com/welcu/android/zxingfragmentlib/ApplicationTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/library/src/main/AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/library/src/main/java/com/welcu/android/zxingfragmentlib/BarCodeScannerFragment.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/library/src/main/java/com/welcu/android/zxingfragmentlib/BarCodeScannerHandler.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/library/src/main/java/com/welcu/android/zxingfragmentlib/DecodeHandler.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/library/src/main/java/com/welcu/android/zxingfragmentlib/DecodeThread.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/library/src/main/java/com/welcu/android/zxingfragmentlib/IConstants.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/library/src/main/res/layout/capture.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/library/src/main/res/raw/beep.ogg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/library/src/main/res/values/arrays.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/library/src/main/res/values/colors.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/library/src/main/res/values/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/library/src/main/res/values/styles.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/library/src/main/res/xml/preferences.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/sample/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/sample/build.gradle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/sample/proguard-rules.pro" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/sample/sample.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/sample/src/androidTest/java/com/welcu/android/zxingfragmentsample/sample/ApplicationTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/sample/src/main/AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/sample/src/main/java/com/welcu/android/zxingfragmentlibsample/BarCodeContainerFragment.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/sample/src/main/java/com/welcu/android/zxingfragmentlibsample/LauncherActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/sample/src/main/java/com/welcu/android/zxingfragmentlibsample/SampleActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/sample/src/main/java/com/welcu/android/zxingfragmentlibsample/SampleFragment.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/sample/src/main/java/com/welcu/android/zxingfragmentlibsample/SampleNestedFragmentActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/sample/src/main/java/com/welcu/android/zxingfragmentlibsample/SampleStretchedActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/sample/src/main/java/com/welcu/android/zxingfragmentlibsample/SampleStretchedFragment.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/sample/src/main/res/drawable-hdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/sample/src/main/res/drawable-mdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/sample/src/main/res/drawable-xhdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/sample/src/main/res/drawable-xxhdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/sample/src/main/res/layout/activity_launcher.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/sample/src/main/res/layout/activity_nested_fragment.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/sample/src/main/res/layout/activity_sample.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/sample/src/main/res/layout/activity_stretched_sample.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/sample/src/main/res/layout/fragment_nested_fragment.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/sample/src/main/res/menu/launcher.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/sample/src/main/res/menu/sample.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/sample/src/main/res/values-w820dp/dimens.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/sample/src/main/res/values/dimens.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/sample/src/main/res/values/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/sample/src/main/res/values/styles.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/settings.gradle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/build.gradle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-de/about1d.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-de/about2d.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-de/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-de/license.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-de/scanning.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-de/sharing.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-de/whatsnew.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-en/about1d.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-en/about2d.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-en/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-en/license.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-en/scanning.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-en/sharing.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-en/whatsnew.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-es/about1d.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-es/about2d.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-es/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-es/license.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-es/scanning.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-es/sharing.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-es/whatsnew.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-fr/about1d.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-fr/about2d.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-fr/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-fr/license.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-fr/scanning.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-fr/sharing.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-fr/whatsnew.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-it/about1d.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-it/about2d.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-it/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-it/license.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-it/scanning.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-it/sharing.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-it/whatsnew.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-ja/about1d.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-ja/about2d.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-ja/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-ja/license.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-ja/scanning.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-ja/sharing.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-ja/whatsnew.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-ko/about1d.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-ko/about2d.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-ko/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-ko/license.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-ko/scanning.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-ko/sharing.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-ko/whatsnew.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-nl/about1d.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-nl/about2d.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-nl/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-nl/license.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-nl/scanning.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-nl/sharing.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-nl/whatsnew.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-pt/about1d.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-pt/about2d.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-pt/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-pt/license.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-pt/scanning.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-pt/sharing.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-pt/whatsnew.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-ru/about1d.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-ru/about2d.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-ru/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-ru/license.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-ru/scanning.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-ru/sharing.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-ru/whatsnew.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-zh-rCN/about1d.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-zh-rCN/about2d.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-zh-rCN/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-zh-rCN/license.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-zh-rCN/scanning.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-zh-rCN/sharing.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-zh-rCN/whatsnew.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-zh-rHK/about1d.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-zh-rHK/about2d.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-zh-rHK/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-zh-rHK/license.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-zh-rHK/scanning.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-zh-rHK/sharing.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-zh-rHK/whatsnew.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-zh-rTW/about1d.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-zh-rTW/about2d.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-zh-rTW/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-zh-rTW/license.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-zh-rTW/scanning.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-zh-rTW/sharing.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html-zh-rTW/whatsnew.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/html/apache-license.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/images/big-1d.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/images/big-aztec.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/images/big-datamatrix.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/images/big-pdf417.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/images/big-qr.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/images/contact-results-screen.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/images/demo-no.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/images/demo-yes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/images/scan-example.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/images/scan-from-phone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/images/search-book-contents.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/assets/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/java/com/google/zxing/client/android/AmbientLightManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/java/com/google/zxing/client/android/BeepManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/java/com/google/zxing/client/android/Contents.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/java/com/google/zxing/client/android/DecodeFormatManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/java/com/google/zxing/client/android/DecodeHintManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/java/com/google/zxing/client/android/FinishListener.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/java/com/google/zxing/client/android/HelpActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/java/com/google/zxing/client/android/HttpHelper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/java/com/google/zxing/client/android/IZXingConstants.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/java/com/google/zxing/client/android/InactivityTimer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/java/com/google/zxing/client/android/IntentSource.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/java/com/google/zxing/client/android/Intents.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/java/com/google/zxing/client/android/LocaleManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/java/com/google/zxing/client/android/PreferencesActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/java/com/google/zxing/client/android/PreferencesFragment.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/java/com/google/zxing/client/android/ScanFromWebPageManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/java/com/google/zxing/client/android/ViewfinderResultPointCallback.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/java/com/google/zxing/client/android/ViewfinderView.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/java/com/google/zxing/client/android/book/BrowseBookListener.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/java/com/google/zxing/client/android/book/SearchBookContentsActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/java/com/google/zxing/client/android/book/SearchBookContentsAdapter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/java/com/google/zxing/client/android/book/SearchBookContentsListItem.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/java/com/google/zxing/client/android/book/SearchBookContentsResult.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/java/com/google/zxing/client/android/camera/AutoFocusManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/java/com/google/zxing/client/android/camera/CameraConfigurationManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/java/com/google/zxing/client/android/camera/CameraConfigurationUtils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/java/com/google/zxing/client/android/camera/CameraManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/java/com/google/zxing/client/android/camera/FrontLightMode.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/java/com/google/zxing/client/android/camera/PreviewCallback.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/java/com/google/zxing/client/android/camera/open/OpenCameraInterface.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/java/com/google/zxing/client/android/clipboard/ClipboardInterface.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/java/com/google/zxing/client/android/encode/ContactEncoder.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/java/com/google/zxing/client/android/encode/EncodeActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/java/com/google/zxing/client/android/encode/Formatter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/java/com/google/zxing/client/android/encode/MECARDContactEncoder.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/java/com/google/zxing/client/android/encode/QRCodeEncoder.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/java/com/google/zxing/client/android/encode/VCardContactEncoder.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/java/com/google/zxing/client/android/encode/VCardFieldFormatter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/java/com/google/zxing/client/android/encode/VCardTelDisplayFormatter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/java/com/google/zxing/client/android/history/DBHelper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/java/com/google/zxing/client/android/history/HistoryActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/java/com/google/zxing/client/android/history/HistoryItem.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/java/com/google/zxing/client/android/history/HistoryItemAdapter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/java/com/google/zxing/client/android/history/HistoryManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/java/com/google/zxing/client/android/result/AddressBookResultHandler.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/java/com/google/zxing/client/android/result/CalendarResultHandler.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/java/com/google/zxing/client/android/result/EmailAddressResultHandler.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/java/com/google/zxing/client/android/result/GeoResultHandler.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/java/com/google/zxing/client/android/result/ISBNResultHandler.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/java/com/google/zxing/client/android/result/ProductResultHandler.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/java/com/google/zxing/client/android/result/ResultButtonListener.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/java/com/google/zxing/client/android/result/ResultHandler.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/java/com/google/zxing/client/android/result/ResultHandlerFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/java/com/google/zxing/client/android/result/SMSResultHandler.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/java/com/google/zxing/client/android/result/TelResultHandler.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/java/com/google/zxing/client/android/result/TextResultHandler.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/java/com/google/zxing/client/android/result/URIResultHandler.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/java/com/google/zxing/client/android/result/WifiResultHandler.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/java/com/google/zxing/client/android/result/supplement/BookResultInfoRetriever.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/java/com/google/zxing/client/android/result/supplement/ProductResultInfoRetriever.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/java/com/google/zxing/client/android/result/supplement/SupplementalInfoRetriever.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/java/com/google/zxing/client/android/result/supplement/TitleRetriever.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/java/com/google/zxing/client/android/result/supplement/URIResultInfoRetriever.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/java/com/google/zxing/client/android/share/AppInfo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/java/com/google/zxing/client/android/share/AppPickerActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/java/com/google/zxing/client/android/share/BookmarkAdapter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/java/com/google/zxing/client/android/share/BookmarkPickerActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/java/com/google/zxing/client/android/share/LoadPackagesAsyncTask.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/java/com/google/zxing/client/android/share/ShareActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/java/com/google/zxing/client/android/wifi/NetworkType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/java/com/google/zxing/client/android/wifi/WifiConfigManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/res/drawable-hdpi/launcher_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/res/drawable-xhdpi/launcher_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/res/drawable-xxhdpi/launcher_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/res/drawable/launcher_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/res/drawable/share_via_barcode.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/res/layout-land/encode.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/res/layout-land/share.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/res/layout-ldpi/capture.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/res/layout/app_picker_list_item.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/res/layout/bookmark_picker_list_item.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/res/layout/encode.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/res/layout/help.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/res/layout/history_list_item.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/res/layout/search_book_contents.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/res/layout/search_book_contents_header.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/res/layout/search_book_contents_list_item.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/res/layout/share.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/res/menu/capture.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/res/menu/encode.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/res/menu/history.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/res/raw/beep.ogg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/res/values-ar/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/res/values-bg/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/res/values-ca/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/res/values-cs/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/res/values-da/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/res/values-de/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/res/values-el/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/res/values-es/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/res/values-eu/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/res/values-fi/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/res/values-fr/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/res/values-he/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/res/values-hi/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/res/values-hu/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/res/values-id/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/res/values-it/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/res/values-iw/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/res/values-ja/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/res/values-ko/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/res/values-nl/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/res/values-pl/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/res/values-pt/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/res/values-ro/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/res/values-ru/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/res/values-sk/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/res/values-sl/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/res/values-sv/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/res/values-th/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/res/values-tr/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/res/values-uk/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/res/values-zh-rCN/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/res/values-zh-rHK/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/res/values-zh-rTW/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/res/values/arrays.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/res/values/colors.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/res/values/dimens.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/res/values/ids.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/res/values/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/res/values/styles.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/res/values/themes.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/src/main/res/xml/preferences.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxing-android/zxing-android.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxingfragmentlib-master/zxingfragmentlib.iml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugAndroidTestJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugAndroidTestJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugAndroidTestJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugAndroidTestJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugAndroidTestJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugAndroidTestJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugUnitTestJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugUnitTestJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugUnitTestJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugUnitTestJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugUnitTestJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugUnitTestJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/offthewalllanguage/www/offthewallandroid/Objects/BorderColor.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/offthewalllanguage/www/offthewallandroid/Objects/BorderColor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/offthewalllanguage/www/offthewallandroid/PlaySoundFile.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/offthewalllanguage/www/offthewallandroid/PlaySoundFile.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/offthewalllanguage/www/offthewallandroid/QRCodeProcessor.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/offthewalllanguage/www/offthewallandroid/QRCodeProcessor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/offthewalllanguage/www/offthewallandroid/main.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/offthewalllanguage/www/offthewallandroid/main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/offthewalllanguage/www/offthewallandroid/welcome_screen.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/offthewalllanguage/www/offthewallandroid/welcome_screen.java" />
     </list>
     <ignored path="Android.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,40 +351,64 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PlaySoundFile.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/offthewalllanguage/www/offthewallandroid/PlaySoundFile.java">
+      <file leaf-file-name="main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/offthewalllanguage/www/offthewallandroid/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.032315977">
-              <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="329" column="17" selection-start-line="329" selection-start-column="17" selection-end-line="329" selection-end-column="17" />
               <folding>
-                <element signature="method#onCreate#0;class#PlaySoundFile#0" expanded="false" />
-                <element signature="method#playAudio#0;class#PlaySoundFile#0" expanded="false" />
-                <element signature="method#onPostCreate#0;class#PlaySoundFile#0" expanded="false" />
-                <element signature="method#onTouchEvent#0;class#PlaySoundFile#0" expanded="false" />
-                <element signature="method#onDoubleTapEvent#0;class#PlaySoundFile#0" expanded="false" />
-                <element signature="method#onSingleTapConfirmed#0;class#PlaySoundFile#0" expanded="false" />
+                <element signature="e#13585#13586#0" expanded="true" />
+                <element signature="e#13620#13621#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SoundFileMap.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/offthewalllanguage/www/offthewallandroid/Objects/SoundFileMap.java">
+      <file leaf-file-name="QRCodeProcessor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/offthewalllanguage/www/offthewallandroid/QRCodeProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
-              <folding>
-                <element signature="method#populateSoundFiles#0;class#SoundFileMap#0" expanded="false" />
-              </folding>
+              <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SoundFile.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/offthewalllanguage/www/offthewallandroid/Objects/SoundFile.java">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-14.0">
+              <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="welcome_screen.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/offthewalllanguage/www/offthewallandroid/welcome_screen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.3804878">
+              <caret line="88" column="44" selection-start-line="88" selection-start-column="44" selection-end-line="88" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -2278,15 +2622,20 @@
       <list>
         <option value="$PROJECT_DIR$/app/src/main/java/com/offthewalllanguage/www/offthewallandroid/Objects/SoundFile.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/offthewalllanguage/www/offthewallandroid/Objects/SoundFileMap.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/offthewalllanguage/www/offthewallandroid/Objects/BorderColor.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/offthewalllanguage/www/offthewallandroid/PlaySoundFile.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/offthewalllanguage/www/offthewallandroid/main.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/offthewalllanguage/www/offthewallandroid/QRCodeProcessor.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/offthewalllanguage/www/offthewallandroid/welcome_screen.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1930" />
-    <option name="y" value="980" />
-    <option name="width" value="1910" />
-    <option name="height" value="998" />
+    <option name="x" value="1920" />
+    <option name="y" value="922" />
+    <option name="width" value="1920" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -2320,6 +2669,70 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="Android" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gradle Scripts" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidBuildScriptsGroupNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Android" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Android" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Android" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="offthewallandroid" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Android" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="manifests" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidManifestsGroupNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -2612,15 +3025,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1930" y="980" width="1910" height="998" extended-state="0" />
+    <frame x="1920" y="922" width="1920" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32837528" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30793992" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -2628,7 +3042,7 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24892704" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24759872" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -2639,7 +3053,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -2679,9 +3092,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
-          <folding>
-            <element signature="method#populateSoundFiles#0;class#SoundFileMap#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2712,27 +3123,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
-          <folding>
-            <element signature="method#populateSoundFiles#0;class#SoundFileMap#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/offthewalllanguage/www/offthewallandroid/Objects/SoundFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/offthewalllanguage/www/offthewallandroid/Objects/SoundFileMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
-          <folding>
-            <element signature="method#populateSoundFiles#0;class#SoundFileMap#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2774,10 +3165,18 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/offthewalllanguage/www/offthewallandroid/Objects/BorderColor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.058536585">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/offthewalllanguage/www/offthewallandroid/PlaySoundFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.032315977">
-          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.4390244">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
             <element signature="method#onCreate#0;class#PlaySoundFile#0" expanded="false" />
             <element signature="method#playAudio#0;class#PlaySoundFile#0" expanded="false" />
@@ -2786,6 +3185,96 @@
             <element signature="method#onDoubleTapEvent#0;class#PlaySoundFile#0" expanded="false" />
             <element signature="method#onSingleTapConfirmed#0;class#PlaySoundFile#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/offthewalllanguage/www/offthewallandroid/Objects/SoundFileMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6390244">
+          <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/offthewalllanguage/www/offthewallandroid/Objects/SoundFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.1707317">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/offthewalllanguage/www/offthewallandroid/Preview/CameraSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4097561">
+          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#47522#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/offthewalllanguage/www/offthewallandroid/Preview/CameraSourcePreview.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08292683">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/offthewalllanguage/www/offthewallandroid/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="329" column="17" selection-start-line="329" selection-start-column="17" selection-end-line="329" selection-end-column="17" />
+          <folding>
+            <element signature="e#13585#13586#0" expanded="true" />
+            <element signature="e#13620#13621#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/offthewalllanguage/www/offthewallandroid/QRCodeProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.0">
+          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/offthewalllanguage/www/offthewallandroid/welcome_screen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3804878">
+          <caret line="88" column="44" selection-start-line="88" selection-start-column="44" selection-end-line="88" selection-end-column="44" />
+          <folding />
         </state>
       </provider>
     </entry>

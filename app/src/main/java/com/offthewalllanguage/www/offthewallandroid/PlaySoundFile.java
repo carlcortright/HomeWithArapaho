@@ -1,19 +1,10 @@
 package com.offthewalllanguage.www.offthewallandroid;
 
-import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Intent;
-import android.graphics.drawable.Drawable;
 import android.media.MediaPlayer;
 import android.support.v4.content.ContextCompat;
-import android.support.v4.view.GestureDetectorCompat;
-import android.support.v4.view.MotionEventCompat;
-import android.support.v7.app.ActionBar;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.os.Handler;
-import android.text.Layout;
-import android.util.Log;
 import android.view.GestureDetector;
 import android.view.MotionEvent;
 import android.view.View;
@@ -23,7 +14,6 @@ import android.widget.TextView;
 import com.offthewalllanguage.www.offthewallandroid.Objects.SoundFile;
 import com.offthewalllanguage.www.offthewallandroid.Objects.SoundFileMap;
 
-import java.io.IOException;
 import java.util.Map;
 
 
@@ -95,6 +85,9 @@ public class PlaySoundFile extends Activity implements GestureDetector.OnGesture
         }
     }
 
+    /**
+     * Touch listener callback overrides
+     * */
     @Override
     protected void onPostCreate(Bundle savedInstanceState) {
         super.onPostCreate(savedInstanceState);
