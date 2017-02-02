@@ -31,7 +31,7 @@
                 android:layout_height="wrap_content"
                 android:text="Phrase in English"
                 android:textSize="40dp"
-                android:id="@+id/english"
+                android:id="@+id/target_lang"
                 android:layout_gravity="center_horizontal"
                 android:layout_margin="20dp" />
 
@@ -48,7 +48,7 @@
                 android:layout_height="wrap_content"
                 android:text="Phrase in Target Language"
                 android:textSize="25dp"
-                android:id="@+id/target_lang"
+                android:id="@+id/english"
                 android:layout_gravity="center_horizontal"
                 android:layout_margin="20dp" />
 

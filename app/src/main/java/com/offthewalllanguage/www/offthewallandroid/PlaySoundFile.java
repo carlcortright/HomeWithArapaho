@@ -81,6 +81,7 @@ public class PlaySoundFile extends Activity implements GestureDetector.OnGesture
             this.mMediaPlayer.start();
         } else {
             Intent scanner = new Intent(this, main.class);
+            scanner.setFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT);
             startActivity(scanner);
         }
     }

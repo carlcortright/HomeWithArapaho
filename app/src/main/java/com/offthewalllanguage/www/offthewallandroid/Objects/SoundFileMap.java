@@ -146,6 +146,46 @@ public class SoundFileMap {
                 R.raw.sa0015,
                 R.drawable.gxp111);
         mSoundFileMap.put("qa0015", soundFileToPut);
+
+        soundFileToPut = new SoundFile(16,
+                "Qu'est-ce que tu veux?",
+                "What do you want?",
+                BorderColor.WHITE,
+                R.raw.f160504001,
+                R.drawable.gxp11);
+        mSoundFileMap.put("F_B_1_1", soundFileToPut);
+
+        soundFileToPut = new SoundFile(17,
+                "des fraises",
+                "some strawberries",
+                BorderColor.WHITE,
+                R.raw.f160504002,
+                R.drawable.gxp1113);
+        mSoundFileMap.put("F_B_1_3", soundFileToPut);
+
+        soundFileToPut = new SoundFile(18,
+                "de l'eau",
+                "some water",
+                BorderColor.WHITE,
+                R.raw.f160504003,
+                R.drawable.gxp25);
+        mSoundFileMap.put("F_B_1_2", soundFileToPut);
+
+        soundFileToPut = new SoundFile(19,
+                "Maman",
+                "Mommy",
+                BorderColor.WHITE,
+                R.raw.f160504005,
+                R.drawable.gxp36);
+        mSoundFileMap.put("F_B_1_4", soundFileToPut);
+
+        soundFileToPut = new SoundFile(20,
+                "Papa",
+                "Daddy",
+                BorderColor.WHITE,
+                R.raw.f160504004,
+                R.drawable.gxp36);
+        mSoundFileMap.put("F_B_1_5", soundFileToPut);
     }
 
     /**
